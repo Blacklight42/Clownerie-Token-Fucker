@@ -1,5 +1,7 @@
-//Dev By Blacklight
-//Don't skid, faggot
+/*
+Dev By Blacklight
+Don't skid, faggot
+*/
 import * as Discord from "discord.js"
 import * as readline from 'readline'
 
