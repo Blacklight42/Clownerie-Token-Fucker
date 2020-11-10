@@ -44,5 +44,4 @@ client.once('ready', () => {
     
     setTimeout(lGuilds, 1000)
     setTimeout(cGuilds, 5000)
-    //Wait fait pas attention a cette ligne j'essaie de test un truc avec vsc puisque j'suis un zguegos
 })
